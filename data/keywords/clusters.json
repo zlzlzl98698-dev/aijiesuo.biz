@@ -1,0 +1,333 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-11-23",
+  "description": "aijiesuo.biz 10 大内容支柱的主题集群、内部链接流向与关键词互抢边界规则。",
+  "clusters": [
+    {
+      "clusterId": "cluster-airport",
+      "name": "机场推荐与综合评估集群",
+      "pillar": "airport",
+      "hubUrl": "/airport/",
+      "primaryKeywords": [
+        "机场",
+        "机场推荐",
+        "机场排行榜",
+        "靠谱机场",
+        "稳定机场",
+        "新手机场"
+      ],
+      "memberUrls": [
+        "/airport/",
+        "/airport/recommend/",
+        "/airport/ranking/",
+        "/airport/reliable/",
+        "/airport/stable/",
+        "/airport/easy-to-use/"
+      ],
+      "internalLinkFlow": {
+        "upstream": ["/"],
+        "downstream": ["/brands/", "/brands/guangsu/", "/reviews/guangsu/", "/pricing/guangsu/"],
+        "crossLinks": ["/pricing/value/", "/network/iepl/", "/risk/buying-guide/"]
+      },
+      "cannibalizationGuard": "recommend 聚焦场景化选型结论；ranking 聚焦双维度评分榜单（commercialRank vs researchScore）；reliable 聚焦运营年限与风险审核；stable 聚焦晚高峰与低丢包专线；easy-to-use 聚焦免订阅专属客户端体验。"
+    },
+    {
+      "clusterId": "cluster-pricing",
+      "name": "价格档位与计费周期集群",
+      "pillar": "pricing",
+      "hubUrl": "/pricing/",
+      "primaryKeywords": [
+        "机场价格套餐",
+        "便宜机场",
+        "一元机场",
+        "一分机场",
+        "月付机场",
+        "不限时机场",
+        "高性价比机场",
+        "光速云价格与优惠码"
+      ],
+      "memberUrls": [
+        "/pricing/",
+        "/pricing/cheap/",
+        "/pricing/one-yuan/",
+        "/pricing/one-cent/",
+        "/pricing/monthly/",
+        "/pricing/non-expiring/",
+        "/pricing/value/",
+        "/pricing/guangsu/"
+      ],
+      "internalLinkFlow": {
+        "upstream": ["/", "/airport/recommend/"],
+        "downstream": ["/brands/guangsu/", "/brands/shandianshu/", "/brands/dalaoyun/", "/brands/wuyou/"],
+        "crossLinks": ["/risk/refunds/", "/risk/shutdown/", "/network/traffic-multiplier/"]
+      },
+      "cannibalizationGuard": "cheap 覆盖 5.6-15 元入门区间比较；one-yuan 与 one-cent 分别为低价现象风险科普页；monthly 聚焦低沉没成本月付；non-expiring 专注一次性永久流量包；value 专注单 GB 成本与专线性能比；/pricing/guangsu/ 独占光速云价格与 AMM 优惠码。"
+    },
+    {
+      "clusterId": "cluster-brands",
+      "name": "机场品牌档案与实测评测集群",
+      "pillar": "brands",
+      "hubUrl": "/brands/",
+      "primaryKeywords": [
+        "机场品牌库",
+        "机场评测",
+        "机场对比",
+        "光速云",
+        "光速云评测"
+      ],
+      "memberUrls": [
+        "/brands/",
+        "/reviews/",
+        "/compare/",
+        "/brands/guangsu/",
+        "/reviews/guangsu/"
+      ],
+      "dynamicPatternUrls": [
+        "/brands/:slug/",
+        "/reviews/:slug/"
+      ],
+      "internalLinkFlow": {
+        "upstream": ["/airport/recommend/", "/airport/ranking/", "/pricing/cheap/"],
+        "downstream": ["/tutorials/guangsu/", "/pricing/guangsu/", "/clients/"],
+        "crossLinks": ["/network/iepl/", "/network/iplc/", "/risk/buying-guide/", "/ai/chatgpt/"]
+      },
+      "cannibalizationGuard": "/brands/:slug/ 负责实体档案、套餐价格表、节点覆盖与官方资料核验状态；/reviews/:slug/ 负责独立测速快照、AI/流媒体解锁表现、优缺点与同系品牌对比。二者绝不混用同一主关键词。"
+    },
+    {
+      "clusterId": "cluster-vpn",
+      "name": "VPN 与场景加速集群",
+      "pillar": "vpn",
+      "hubUrl": "/vpn/",
+      "primaryKeywords": [
+        "VPN 与加速器",
+        "VPN 推荐",
+        "免费 VPN",
+        "手机 VPN",
+        "安卓 VPN",
+        "游戏加速器与代理"
+      ],
+      "memberUrls": [
+        "/vpn/",
+        "/vpn/recommend/",
+        "/vpn/free/",
+        "/vpn/mobile/",
+        "/vpn/android/",
+        "/vpn/gaming/"
+      ],
+      "internalLinkFlow": {
+        "upstream": ["/"],
+        "downstream": ["/airport/recommend/", "/clients/android/", "/clients/ios/"],
+        "crossLinks": ["/risk/privacy/", "/network/low-latency/"]
+      },
+      "cannibalizationGuard": "/vpn/ 解析传统 VPN 与代理协议差异；mobile 覆盖双端通用需求；android 专注安卓后台保活与客户端；free 专注免费方案局限与风险警示；gaming 专注 UDP/NAT 游戏延迟特征。"
+    },
+    {
+      "clusterId": "cluster-clients",
+      "name": "全平台代理客户端集群",
+      "pillar": "clients",
+      "hubUrl": "/clients/",
+      "primaryKeywords": [
+        "代理客户端下载",
+        "Windows 机场客户端",
+        "Android 安卓代理客户端",
+        "iOS 苹果代理客户端",
+        "macOS 代理客户端",
+        "Linux 代理客户端",
+        "OpenWrt 软路由代理插件"
+      ],
+      "memberUrls": [
+        "/clients/",
+        "/clients/windows/",
+        "/clients/android/",
+        "/clients/ios/",
+        "/clients/macos/",
+        "/clients/linux/",
+        "/clients/openwrt/",
+        "/clients/clash-verge-rev/",
+        "/clients/clash-meta/",
+        "/clients/v2rayn/",
+        "/clients/shadowrocket/",
+        "/clients/mihomo/",
+        "/clients/sing-box/",
+        "/clients/flclash/",
+        "/clients/hiddify/",
+        "/clients/karing/",
+        "/clients/clash-nyanpasu/",
+        "/clients/v2rayng/",
+        "/clients/nekobox/",
+        "/clients/stash/",
+        "/clients/quantumult-x/",
+        "/clients/surge/",
+        "/clients/openclash/",
+        "/clients/passwall2/",
+        "/clients/nikki/"
+      ],
+      "internalLinkFlow": {
+        "upstream": ["/", "/brands/", "/tutorials/"],
+        "downstream": ["/tutorials/subscription/", "/tutorials/clash/", "/risk/security/"],
+        "crossLinks": ["/troubleshooting/startup/", "/risk/alternatives/"]
+      },
+      "cannibalizationGuard": "OS Hub 页面（windows/android/ios/macos/linux/openwrt）承担系统选型对比与架构提示（如 Apple Silicon vs Intel、OpenWrt 24.10+）；单款软件页聚焦该软件特性、支持协议、维护状态与风险提示（如 NekoBox Google Play 假冒警示）。"
+    },
+    {
+      "clusterId": "cluster-ai",
+      "name": "AI 工具与流媒体解锁集群",
+      "pillar": "ai",
+      "hubUrl": "/ai/",
+      "primaryKeywords": [
+        "AI 与流媒体解锁",
+        "ChatGPT 机场节点解锁",
+        "Claude 解锁与节点选择",
+        "Gemini 访问节点兼容",
+        "Netflix 奈飞解锁机场",
+        "YouTube 防送中与 4K 节点",
+        "Disney+ 解锁节点",
+        "TikTok 跨区直连节点"
+      ],
+      "memberUrls": [
+        "/ai/",
+        "/ai/chatgpt/",
+        "/ai/claude/",
+        "/ai/gemini/",
+        "/ai/netflix/",
+        "/ai/youtube/",
+        "/ai/disney/",
+        "/ai/tiktok/"
+      ],
+      "internalLinkFlow": {
+        "upstream": ["/", "/airport/recommend/"],
+        "downstream": ["/brands/sujie/", "/brands/guangsu/", "/brands/wuyou/", "/brands/firefly/"],
+        "crossLinks": ["/troubleshooting/ai-access/", "/tutorials/routing/", "/network/hong-kong/"]
+      },
+      "cannibalizationGuard": "每个 AI 或流媒体目标平台独立成页，明确记录品牌清单中的“支持”与“视节点而定”边界；ChatGPT 报错排错细节导流至 /troubleshooting/ai-access/。"
+    },
+    {
+      "clusterId": "cluster-network",
+      "name": "专线架构与节点指标集群",
+      "pillar": "network",
+      "hubUrl": "/network/",
+      "primaryKeywords": [
+        "机场线路与节点",
+        "IEPL 专线机场",
+        "IPLC 国际专线",
+        "香港节点机场",
+        "日本节点机场",
+        "低延迟机场测速",
+        "节点流量倍率"
+      ],
+      "memberUrls": [
+        "/network/",
+        "/network/iepl/",
+        "/network/iplc/",
+        "/network/hong-kong/",
+        "/network/japan/",
+        "/network/low-latency/",
+        "/network/traffic-multiplier/"
+      ],
+      "internalLinkFlow": {
+        "upstream": ["/airport/stable/", "/reviews/"],
+        "downstream": ["/brands/guangsu/", "/brands/xingdaomeng/", "/brands/weitu/", "/brands/yifan/"],
+        "crossLinks": ["/ai/chatgpt/", "/pricing/value/"]
+      },
+      "cannibalizationGuard": "iepl 与 iplc 分别解析技术口径与核查难点；hong-kong 与 japan 聚焦区域节点用途（如香港低延迟但不适用多数 AI）；traffic-multiplier 聚焦倍率计费换算。"
+    },
+    {
+      "clusterId": "cluster-tutorials",
+      "name": "订阅导入与客户端实操教程集群",
+      "pillar": "tutorials",
+      "hubUrl": "/tutorials/",
+      "primaryKeywords": [
+        "机场使用教程",
+        "订阅链接导入教程",
+        "Clash 使用教程",
+        "代理分流规则教程",
+        "TUN 模式开启教程",
+        "代理 DNS 设置教程",
+        "Windows 科学上网设置",
+        "Android 机场配置教程",
+        "iOS 机场配置教程",
+        "光速云使用教程"
+      ],
+      "memberUrls": [
+        "/tutorials/",
+        "/tutorials/subscription/",
+        "/tutorials/clash/",
+        "/tutorials/routing/",
+        "/tutorials/tun/",
+        "/tutorials/dns/",
+        "/tutorials/windows/",
+        "/tutorials/android/",
+        "/tutorials/ios/",
+        "/tutorials/guangsu/"
+      ],
+      "internalLinkFlow": {
+        "upstream": ["/clients/", "/brands/guangsu/"],
+        "downstream": ["/troubleshooting/", "/clients/clash-verge-rev/", "/clients/shadowrocket/"],
+        "crossLinks": ["/ai/chatgpt/", "/risk/security/"]
+      },
+      "cannibalizationGuard": "tutorials 按动作/平台流程组织（如何配置），不与 clients（选什么软件、维护状态）及 troubleshooting（报错怎么修）重复。"
+    },
+    {
+      "clusterId": "cluster-troubleshooting",
+      "name": "代理连接与 AI 故障排查集群",
+      "pillar": "troubleshooting",
+      "hubUrl": "/troubleshooting/",
+      "primaryKeywords": [
+        "代理故障排查",
+        "机场节点超时 timeout",
+        "订阅更新失败",
+        "连上代理无法上网",
+        "代理 DNS 泄漏与解析失败",
+        "代理客户端无法启动",
+        "TUN 模式断网排查",
+        "ChatGPT 无法访问报错排查"
+      ],
+      "memberUrls": [
+        "/troubleshooting/",
+        "/troubleshooting/timeout/",
+        "/troubleshooting/subscription/",
+        "/troubleshooting/connection/",
+        "/troubleshooting/dns/",
+        "/troubleshooting/startup/",
+        "/troubleshooting/tun/",
+        "/troubleshooting/ai-access/"
+      ],
+      "internalLinkFlow": {
+        "upstream": ["/tutorials/", "/ai/chatgpt/"],
+        "downstream": ["/clients/", "/risk/alternatives/", "/airport/reliable/"],
+        "crossLinks": ["/tutorials/dns/", "/tutorials/tun/"]
+      },
+      "cannibalizationGuard": "所有排错页严格按故障现象与错误码切分（timeout / 订阅拉取 / 已连接无网 / DNS / 启动失败 / TUN 断网 / AI 拒访），每页提供可复现排查顺序。"
+    },
+    {
+      "clusterId": "cluster-risk",
+      "name": "风控安全、合规与替代迁移集群",
+      "pillar": "risk",
+      "hubUrl": "/risk/",
+      "primaryKeywords": [
+        "机场风险与合规",
+        "机场跑路风险",
+        "机场购买避坑指南",
+        "Clash 停更替代方案",
+        "机场退款政策说明",
+        "代理隐私与日志风险",
+        "代理客户端下载安全"
+      ],
+      "memberUrls": [
+        "/risk/",
+        "/risk/shutdown/",
+        "/risk/buying-guide/",
+        "/risk/alternatives/",
+        "/risk/refunds/",
+        "/risk/privacy/",
+        "/risk/security/"
+      ],
+      "internalLinkFlow": {
+        "upstream": ["/brands/", "/pricing/one-yuan/", "/clients/nekobox/"],
+        "downstream": ["/pricing/monthly/", "/clients/clash-verge-rev/", "/airport/reliable/"],
+        "crossLinks": ["/brands/kexin/", "/tutorials/subscription/"]
+      },
+      "cannibalizationGuard": "risk 支柱承担购前风控、财务边界、安全下载核验与停更/停服后的替代迁移路径，确保商业推广与客观风险披露分离。"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "aijiesuo.biz 关键词发现、评分重排及 GSC/Bing 真实数据导入历史审计记录。",
+  "runs": [
+    {
+      "runId": "run-2026-11-23T05:42:18.842Z",
+      "timestamp": "2026-11-23T05:42:18.842Z",
+      "action": "rescore",
+      "totalMappedUrls": 153,
+      "totalScoredItems": 153,
+      "tierCounts": {
+        "P0": 66,
+        "P1": 76,
+        "P2": 11
+      },
+      "imports": [],
+      "collisionsDetected": 0
+    }
+  ]
+}

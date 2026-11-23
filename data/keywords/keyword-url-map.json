@@ -1,0 +1,2259 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-11-23",
+  "description": "aijiesuo.biz 1:1 主关键词到 URL 唯一映射表，覆盖全站 91 个静态路由与全部 32 个机场品牌档案/评测路由，严格防止关键词互抢（cannibalization）。",
+  "mappings": [
+    {
+      "url": "/",
+      "primaryKeyword": "AI解锁",
+      "secondaryKeywords": [
+        "aijiesuo.biz",
+        "AI服务访问与机场评估知识库"
+      ],
+      "excludedKeywords": [
+        "机场推荐",
+        "代理客户端下载"
+      ],
+      "pillar": "airport",
+      "intent": "navigational",
+      "pageType": "static-home"
+    },
+    {
+      "url": "/airport/",
+      "primaryKeyword": "机场",
+      "secondaryKeywords": [
+        "代理机场知识库",
+        "机场选型维度"
+      ],
+      "excludedKeywords": [
+        "机场推荐",
+        "机场排行榜"
+      ],
+      "pillar": "airport",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/airport/recommend/",
+      "primaryKeyword": "机场推荐",
+      "secondaryKeywords": [
+        "2026 好用的机场推荐",
+        "机场哪个好 2026",
+        "科学上网机场推荐"
+      ],
+      "excludedKeywords": [
+        "机场排行榜",
+        "便宜机场"
+      ],
+      "pillar": "airport",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/airport/ranking/",
+      "primaryKeyword": "机场排行榜",
+      "secondaryKeywords": [
+        "机场梯子排行前十",
+        "机场评分榜单"
+      ],
+      "excludedKeywords": [
+        "机场推荐",
+        "靠谱机场"
+      ],
+      "pillar": "airport",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/airport/reliable/",
+      "primaryKeyword": "靠谱机场",
+      "secondaryKeywords": [
+        "怎么判断机场靠不靠谱",
+        "安全运营机场筛选"
+      ],
+      "excludedKeywords": [
+        "稳定机场",
+        "机场跑路风险"
+      ],
+      "pillar": "airport",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/airport/stable/",
+      "primaryKeyword": "稳定机场",
+      "secondaryKeywords": [
+        "晚高峰不卡顿机场",
+        "长期办公稳定专线机场"
+      ],
+      "excludedKeywords": [
+        "靠谱机场",
+        "IEPL 专线机场"
+      ],
+      "pillar": "airport",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/airport/easy-to-use/",
+      "primaryKeyword": "新手机场",
+      "secondaryKeywords": [
+        "不用配置 Clash 的新手机场",
+        "专属客户端免订阅机场"
+      ],
+      "excludedKeywords": [
+        "机场使用教程",
+        "便宜机场"
+      ],
+      "pillar": "airport",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/pricing/",
+      "primaryKeyword": "机场价格套餐",
+      "secondaryKeywords": [
+        "机场多少钱一个月",
+        "机场计费模式对比"
+      ],
+      "excludedKeywords": [
+        "便宜机场",
+        "不限时机场"
+      ],
+      "pillar": "pricing",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/pricing/cheap/",
+      "primaryKeyword": "便宜机场",
+      "secondaryKeywords": [
+        "5.6元一月的便宜机场有哪些",
+        "低预算入门机场汇总"
+      ],
+      "excludedKeywords": [
+        "一元机场",
+        "高性价比机场"
+      ],
+      "pillar": "pricing",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/pricing/one-yuan/",
+      "primaryKeyword": "一元机场",
+      "secondaryKeywords": [
+        "1元机场能长期当主力吗",
+        "一元超低价节点风险"
+      ],
+      "excludedKeywords": [
+        "一分机场",
+        "便宜机场"
+      ],
+      "pillar": "pricing",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/pricing/one-cent/",
+      "primaryKeyword": "一分机场",
+      "secondaryKeywords": [
+        "一分钱体验机场靠谱吗",
+        "极低价引流套餐甄别"
+      ],
+      "excludedKeywords": [
+        "一元机场",
+        "月付机场"
+      ],
+      "pillar": "pricing",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/pricing/monthly/",
+      "primaryKeyword": "月付机场",
+      "secondaryKeywords": [
+        "按月付费机场套餐",
+        "低沉没成本月付方案"
+      ],
+      "excludedKeywords": [
+        "不限时机场",
+        "便宜机场"
+      ],
+      "pillar": "pricing",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/pricing/non-expiring/",
+      "primaryKeyword": "不限时机场",
+      "secondaryKeywords": [
+        "永久不过期不限时流量包机场推荐",
+        "按量计费一次性流量包"
+      ],
+      "excludedKeywords": [
+        "月付机场",
+        "节点流量倍率"
+      ],
+      "pillar": "pricing",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/pricing/value/",
+      "primaryKeyword": "高性价比机场",
+      "secondaryKeywords": [
+        "高性价比专线机场评估",
+        "单GB流量成本对比"
+      ],
+      "excludedKeywords": [
+        "便宜机场",
+        "机场推荐"
+      ],
+      "pillar": "pricing",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/pricing/guangsu/",
+      "primaryKeyword": "光速云价格与优惠码",
+      "secondaryKeywords": [
+        "光速云优惠码 AMM 怎么使用与折扣说明",
+        "光速云147永久套餐价格"
+      ],
+      "excludedKeywords": [
+        "光速云",
+        "光速云评测"
+      ],
+      "pillar": "pricing",
+      "intent": "transactional",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/brands/",
+      "primaryKeyword": "机场品牌库",
+      "secondaryKeywords": [
+        "32家机场品牌清单",
+        "机场品牌筛选目录"
+      ],
+      "excludedKeywords": [
+        "机场评测",
+        "机场对比"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/reviews/",
+      "primaryKeyword": "机场评测",
+      "secondaryKeywords": [
+        "哪些机场有 2026-08-11 实测测速图",
+        "机场测速实测报告汇总"
+      ],
+      "excludedKeywords": [
+        "机场品牌库",
+        "机场对比"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/compare/",
+      "primaryKeyword": "机场对比",
+      "secondaryKeywords": [
+        "光速云和暮光加速哪个更适合多设备办公",
+        "同价位机场横向参数对比"
+      ],
+      "excludedKeywords": [
+        "机场排行榜",
+        "机场评测"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/compare/guangsu-vs-weitu/",
+      "primaryKeyword": "光速云 vs 唯兔云",
+      "secondaryKeywords": [
+        "光速云和唯兔云哪个值得买",
+        "唯兔云 14.9 元限时 IPLC 对比"
+      ],
+      "excludedKeywords": [
+        "光速云",
+        "唯兔云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "static-compare"
+    },
+    {
+      "url": "/compare/guangsu-vs-yifan/",
+      "primaryKeyword": "光速云 vs 一翻云",
+      "secondaryKeywords": [
+        "光速云和一翻云对比",
+        "一翻云 Hysteria2 三协议对比"
+      ],
+      "excludedKeywords": [
+        "光速云",
+        "一翻云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "static-compare"
+    },
+    {
+      "url": "/compare/feimao-vs-wuyou/",
+      "primaryKeyword": "飞猫云 vs 无忧链接",
+      "secondaryKeywords": [
+        "飞猫云和无忧链接哪个好",
+        "专属客户端新手入门机场对比"
+      ],
+      "excludedKeywords": [
+        "飞猫云",
+        "无忧链接"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "static-compare"
+    },
+    {
+      "url": "/compare/clash-verge-rev-vs-flclash-vs-v2rayn/",
+      "primaryKeyword": "Clash Verge Rev vs FlClash vs v2rayN",
+      "secondaryKeywords": [
+        "桌面代理客户端横向对比",
+        "Mihomo 与 Xray 桌面客户端怎么选"
+      ],
+      "excludedKeywords": [
+        "Clash Verge Rev",
+        "FlClash",
+        "v2rayN"
+      ],
+      "pillar": "clients",
+      "intent": "commercial",
+      "pageType": "static-compare"
+    },
+    {
+      "url": "/brands/guangsu/",
+      "primaryKeyword": "光速云",
+      "secondaryKeywords": [
+        "光速云官网打不开或注册入口在哪",
+        "光速云机场基础档案"
+      ],
+      "excludedKeywords": [
+        "光速云评测",
+        "光速云价格与优惠码",
+        "光速云使用教程"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "static-brand"
+    },
+    {
+      "url": "/reviews/guangsu/",
+      "primaryKeyword": "光速云评测",
+      "secondaryKeywords": [
+        "光速云能稳定用 ChatGPT 和 Gemini 吗",
+        "光速云测速实测怎么样"
+      ],
+      "excludedKeywords": [
+        "光速云",
+        "光速云价格与优惠码"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "static-review"
+    },
+    {
+      "url": "/vpn/",
+      "primaryKeyword": "VPN 与加速器",
+      "secondaryKeywords": [
+        "VPN和代理机场有什么区别",
+        "跨境联网工具架构对比"
+      ],
+      "excludedKeywords": [
+        "VPN 推荐",
+        "免费 VPN"
+      ],
+      "pillar": "vpn",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/vpn/recommend/",
+      "primaryKeyword": "VPN 推荐",
+      "secondaryKeywords": [
+        "稳定跨境 VPN 选型建议",
+        "远程办公联网工具推荐"
+      ],
+      "excludedKeywords": [
+        "机场推荐",
+        "免费 VPN"
+      ],
+      "pillar": "vpn",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/vpn/free/",
+      "primaryKeyword": "免费 VPN",
+      "secondaryKeywords": [
+        "免费 VPN 为什么不建议用来访问 ChatGPT",
+        "免费代理节点安全隐患"
+      ],
+      "excludedKeywords": [
+        "VPN 推荐",
+        "便宜机场"
+      ],
+      "pillar": "vpn",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/vpn/mobile/",
+      "primaryKeyword": "手机 VPN",
+      "secondaryKeywords": [
+        "手机跨境联网软件方案",
+        "iOS 与安卓移动代理对比"
+      ],
+      "excludedKeywords": [
+        "安卓 VPN",
+        "iOS 苹果代理客户端"
+      ],
+      "pillar": "vpn",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/vpn/android/",
+      "primaryKeyword": "安卓 VPN",
+      "secondaryKeywords": [
+        "安卓手机 VPN 后台保活与分流",
+        "Android 联网方案"
+      ],
+      "excludedKeywords": [
+        "Android 安卓代理客户端",
+        "手机 VPN"
+      ],
+      "pillar": "vpn",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/vpn/gaming/",
+      "primaryKeyword": "游戏加速器与代理",
+      "secondaryKeywords": [
+        "代理机场能代替游戏加速器吗",
+        "Full Cone NAT 与 UDP 转发"
+      ],
+      "excludedKeywords": [
+        "低延迟机场测速",
+        "VPN 推荐"
+      ],
+      "pillar": "vpn",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/clients/",
+      "primaryKeyword": "代理客户端下载",
+      "secondaryKeywords": [
+        "2026 机场代理客户端大全",
+        "第三方通用客户端汇总"
+      ],
+      "excludedKeywords": [
+        "Windows 机场客户端",
+        "Clash Verge Rev"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/clients/windows/",
+      "primaryKeyword": "Windows 机场客户端",
+      "secondaryKeywords": [
+        "Clash for Windows 停更删库后 Windows 用什么替代",
+        "电脑代理软件推荐"
+      ],
+      "excludedKeywords": [
+        "Windows 科学上网设置",
+        "Clash Verge Rev"
+      ],
+      "pillar": "clients",
+      "intent": "informational",
+      "pageType": "static-client-os"
+    },
+    {
+      "url": "/clients/android/",
+      "primaryKeyword": "Android 安卓代理客户端",
+      "secondaryKeywords": [
+        "安卓机场软件推荐",
+        "Android Mihomo 与 sing-box 客户端"
+      ],
+      "excludedKeywords": [
+        "Android 机场配置教程",
+        "安卓 VPN"
+      ],
+      "pillar": "clients",
+      "intent": "informational",
+      "pageType": "static-client-os"
+    },
+    {
+      "url": "/clients/ios/",
+      "primaryKeyword": "iOS 苹果代理客户端",
+      "secondaryKeywords": [
+        "iPhone iPad 代理软件对比",
+        "iOS 付费与免费客户端"
+      ],
+      "excludedKeywords": [
+        "iOS 机场配置教程",
+        "Shadowrocket 小火箭"
+      ],
+      "pillar": "clients",
+      "intent": "informational",
+      "pageType": "static-client-os"
+    },
+    {
+      "url": "/clients/macos/",
+      "primaryKeyword": "macOS 代理客户端",
+      "secondaryKeywords": [
+        "macOS M1 M2 M3 苹果芯片安装 Clash 下载哪个版本",
+        "Mac 苹果电脑机场客户端"
+      ],
+      "excludedKeywords": [
+        "Clash Verge Rev",
+        "Surge 代理工具"
+      ],
+      "pillar": "clients",
+      "intent": "informational",
+      "pageType": "static-client-os"
+    },
+    {
+      "url": "/clients/linux/",
+      "primaryKeyword": "Linux 代理客户端",
+      "secondaryKeywords": [
+        "Linux 无桌面服务器用什么代理客户端",
+        "DEB RPM AppImage 代理客户端"
+      ],
+      "excludedKeywords": [
+        "OpenWrt 软路由代理插件",
+        "v2rayN"
+      ],
+      "pillar": "clients",
+      "intent": "informational",
+      "pageType": "static-client-os"
+    },
+    {
+      "url": "/clients/openwrt/",
+      "primaryKeyword": "OpenWrt 软路由代理插件",
+      "secondaryKeywords": [
+        "软路由透明代理方案对比",
+        "OpenClash PassWall2 Nikki HomeProxy 对比"
+      ],
+      "excludedKeywords": [
+        "OpenClash",
+        "Nikki OpenWrt"
+      ],
+      "pillar": "clients",
+      "intent": "informational",
+      "pageType": "static-client-os"
+    },
+    {
+      "url": "/clients/clash-verge-rev/",
+      "primaryKeyword": "Clash Verge Rev",
+      "secondaryKeywords": [
+        "Clash Verge Rev 下载",
+        "Clash Verge Rev 和 Mihomo Party 怎么选"
+      ],
+      "excludedKeywords": [
+        "Clash 使用教程",
+        "Clash 停更替代方案"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/clash-meta/",
+      "primaryKeyword": "Clash Meta",
+      "secondaryKeywords": [
+        "Clash Meta for Android",
+        "Clash.Meta 生态说明"
+      ],
+      "excludedKeywords": [
+        "Mihomo 内核",
+        "Clash Verge Rev"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/v2rayn/",
+      "primaryKeyword": "v2rayN",
+      "secondaryKeywords": [
+        "v2rayN 下载",
+        "v2rayN Xray sing-box 多核心客户端"
+      ],
+      "excludedKeywords": [
+        "v2rayNG",
+        "Windows 机场客户端"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/shadowrocket/",
+      "primaryKeyword": "Shadowrocket 小火箭",
+      "secondaryKeywords": [
+        "Shadowrocket 小火箭美区 Apple ID 购买注意什么",
+        "小火箭 App Store 下载"
+      ],
+      "excludedKeywords": [
+        "iOS 机场配置教程",
+        "Stash 客户端"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/mihomo/",
+      "primaryKeyword": "Mihomo 内核",
+      "secondaryKeywords": [
+        "Mihomo 核心特性与协议支持",
+        "Clash 内核演变说明"
+      ],
+      "excludedKeywords": [
+        "Clash Meta",
+        "sing-box 客户端"
+      ],
+      "pillar": "clients",
+      "intent": "informational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/sing-box/",
+      "primaryKeyword": "sing-box 客户端",
+      "secondaryKeywords": [
+        "sing-box SFA SFI SFM 官方端",
+        "sing-box 原生配置定位"
+      ],
+      "excludedKeywords": [
+        "Karing",
+        "NekoBox"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/flclash/",
+      "primaryKeyword": "FlClash",
+      "secondaryKeywords": [
+        "FlClash 下载",
+        "FlClash 跨平台 Mihomo 客户端"
+      ],
+      "excludedKeywords": [
+        "Clash Verge Rev",
+        "Clash Nyanpasu"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/hiddify/",
+      "primaryKeyword": "Hiddify",
+      "secondaryKeywords": [
+        "Hiddify 多协议客户端下载",
+        "Hiddify 自动节点选择"
+      ],
+      "excludedKeywords": [
+        "Karing",
+        "v2rayN"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/karing/",
+      "primaryKeyword": "Karing",
+      "secondaryKeywords": [
+        "Karing 下载",
+        "Karing sing-box 多订阅客户端"
+      ],
+      "excludedKeywords": [
+        "Hiddify",
+        "sing-box 客户端"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/clash-nyanpasu/",
+      "primaryKeyword": "Clash Nyanpasu",
+      "secondaryKeywords": [
+        "Clash Nyanpasu 下载",
+        "Nyanpasu 多内核图形客户端"
+      ],
+      "excludedKeywords": [
+        "Clash Verge Rev",
+        "FlClash"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/v2rayng/",
+      "primaryKeyword": "v2rayNG",
+      "secondaryKeywords": [
+        "v2rayNG 安卓下载",
+        "v2rayNG 订阅导入与协议支持"
+      ],
+      "excludedKeywords": [
+        "v2rayN",
+        "Android 安卓代理客户端"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/nekobox/",
+      "primaryKeyword": "NekoBox",
+      "secondaryKeywords": [
+        "NekoBox 安卓版为什么不要在 Google Play 下载",
+        "NekoBox for Android 风险提示"
+      ],
+      "excludedKeywords": [
+        "sing-box 客户端",
+        "代理客户端下载安全"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/stash/",
+      "primaryKeyword": "Stash 客户端",
+      "secondaryKeywords": [
+        "Stash iOS macOS 下载",
+        "Stash 规则覆写与策略组"
+      ],
+      "excludedKeywords": [
+        "Shadowrocket 小火箭",
+        "Quantumult X 圈X"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/quantumult-x/",
+      "primaryKeyword": "Quantumult X 圈X",
+      "secondaryKeywords": [
+        "圈X 规则分流与重写脚本",
+        "Quantumult X 购买说明"
+      ],
+      "excludedKeywords": [
+        "Surge 代理工具",
+        "Shadowrocket 小火箭"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/surge/",
+      "primaryKeyword": "Surge 代理工具",
+      "secondaryKeywords": [
+        "Surge 5 iOS 与 Surge Mac",
+        "Surge 高级流量调试"
+      ],
+      "excludedKeywords": [
+        "Quantumult X 圈X",
+        "Stash 客户端"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/openclash/",
+      "primaryKeyword": "OpenClash",
+      "secondaryKeywords": [
+        "OpenWrt OpenClash 插件",
+        "OpenClash Mihomo 透明代理"
+      ],
+      "excludedKeywords": [
+        "PassWall2",
+        "Nikki OpenWrt"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/passwall2/",
+      "primaryKeyword": "PassWall2",
+      "secondaryKeywords": [
+        "OpenWrt PassWall2 节点分流",
+        "PassWall2 Xray sing-box"
+      ],
+      "excludedKeywords": [
+        "OpenClash",
+        "Nikki OpenWrt"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/clients/nikki/",
+      "primaryKeyword": "Nikki OpenWrt",
+      "secondaryKeywords": [
+        "Nikki 软路由插件对 OpenWrt 版本有什么要求",
+        "Nikki Mihomo 透明代理"
+      ],
+      "excludedKeywords": [
+        "OpenClash",
+        "OpenWrt 软路由代理插件"
+      ],
+      "pillar": "clients",
+      "intent": "navigational",
+      "pageType": "static-client"
+    },
+    {
+      "url": "/ai/",
+      "primaryKeyword": "AI 与流媒体解锁",
+      "secondaryKeywords": [
+        "原生 IP 解锁原理",
+        "流媒体与 AI 访问节点指南"
+      ],
+      "excludedKeywords": [
+        "ChatGPT 机场节点解锁",
+        "Netflix 奈飞解锁机场"
+      ],
+      "pillar": "ai",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/ai/chatgpt/",
+      "primaryKeyword": "ChatGPT 机场节点解锁",
+      "secondaryKeywords": [
+        "香港节点为什么经常用不了 ChatGPT 和 Claude",
+        "OpenAI 可用节点选择"
+      ],
+      "excludedKeywords": [
+        "ChatGPT 无法访问报错排查",
+        "Claude 解锁与节点选择"
+      ],
+      "pillar": "ai",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/ai/claude/",
+      "primaryKeyword": "Claude 解锁与节点选择",
+      "secondaryKeywords": [
+        "Anthropic Claude 纯净 IP 节点",
+        "Claude 封号与地区限制"
+      ],
+      "excludedKeywords": [
+        "ChatGPT 机场节点解锁",
+        "Gemini 访问节点兼容"
+      ],
+      "pillar": "ai",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/ai/gemini/",
+      "primaryKeyword": "Gemini 访问节点兼容",
+      "secondaryKeywords": [
+        "Google Gemini 机场节点要求",
+        "为什么部分机场标明 Gemini 视节点而定"
+      ],
+      "excludedKeywords": [
+        "ChatGPT 机场节点解锁",
+        "YouTube 防送中与 4K 节点"
+      ],
+      "pillar": "ai",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/ai/netflix/",
+      "primaryKeyword": "Netflix 奈飞解锁机场",
+      "secondaryKeywords": [
+        "奈飞非自制剧原生 IP 解锁",
+        "Netflix 4K 节点要求"
+      ],
+      "excludedKeywords": [
+        "Disney+ 解锁节点",
+        "AI 与流媒体解锁"
+      ],
+      "pillar": "ai",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/ai/youtube/",
+      "primaryKeyword": "YouTube 防送中与 4K 节点",
+      "secondaryKeywords": [
+        "YouTube 定位送中怎么解决",
+        "YouTube Premium 跨区节点"
+      ],
+      "excludedKeywords": [
+        "Netflix 奈飞解锁机场",
+        "Gemini 访问节点兼容"
+      ],
+      "pillar": "ai",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/ai/disney/",
+      "primaryKeyword": "Disney+ 解锁节点",
+      "secondaryKeywords": [
+        "迪士尼流媒体地区解锁",
+        "Disney Plus 节点兼容"
+      ],
+      "excludedKeywords": [
+        "Netflix 奈飞解锁机场",
+        "TikTok 跨区直连节点"
+      ],
+      "pillar": "ai",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/ai/tiktok/",
+      "primaryKeyword": "TikTok 跨区直连节点",
+      "secondaryKeywords": [
+        "TikTok 直播运营机场节点",
+        "TikTok 原生 IP 与区域归属"
+      ],
+      "excludedKeywords": [
+        "Disney+ 解锁节点",
+        "AI 与流媒体解锁"
+      ],
+      "pillar": "ai",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/network/",
+      "primaryKeyword": "机场线路与节点",
+      "secondaryKeywords": [
+        "中转专线与直连线路区别",
+        "节点质量评估维度"
+      ],
+      "excludedKeywords": [
+        "IEPL 专线机场",
+        "IPLC 国际专线"
+      ],
+      "pillar": "network",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/network/iepl/",
+      "primaryKeyword": "IEPL 专线机场",
+      "secondaryKeywords": [
+        "IEPL 和 IPLC 专线有什么区别 哪个更稳",
+        "IEPL 企业级内网专线解析"
+      ],
+      "excludedKeywords": [
+        "IPLC 国际专线",
+        "稳定机场"
+      ],
+      "pillar": "network",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/network/iplc/",
+      "primaryKeyword": "IPLC 国际专线",
+      "secondaryKeywords": [
+        "IPLC 点对点专线特点",
+        "IPLC 机场如何核查宣传口径"
+      ],
+      "excludedKeywords": [
+        "IEPL 专线机场",
+        "低延迟机场测速"
+      ],
+      "pillar": "network",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/network/hong-kong/",
+      "primaryKeyword": "香港节点机场",
+      "secondaryKeywords": [
+        "香港节点延迟与带宽特点",
+        "香港节点不适用的 AI 服务说明"
+      ],
+      "excludedKeywords": [
+        "日本节点机场",
+        "ChatGPT 机场节点解锁"
+      ],
+      "pillar": "network",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/network/japan/",
+      "primaryKeyword": "日本节点机场",
+      "secondaryKeywords": [
+        "日本节点流媒体与 AI 解锁特点",
+        "日本 CN2/IIJ/BGP 线路表现"
+      ],
+      "excludedKeywords": [
+        "香港节点机场",
+        "低延迟机场测速"
+      ],
+      "pillar": "network",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/network/low-latency/",
+      "primaryKeyword": "低延迟机场测速",
+      "secondaryKeywords": [
+        "TCP Ping 与 HTTPS 延迟差异",
+        "晚高峰丢包率怎么测"
+      ],
+      "excludedKeywords": [
+        "机场评测",
+        "游戏加速器与代理"
+      ],
+      "pillar": "network",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/network/traffic-multiplier/",
+      "primaryKeyword": "节点流量倍率",
+      "secondaryKeywords": [
+        "机场节点倍率 2x 3x 是什么意思",
+        "1x 流量不倍率品牌清单"
+      ],
+      "excludedKeywords": [
+        "不限时机场",
+        "高性价比机场"
+      ],
+      "pillar": "network",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/tutorials/",
+      "primaryKeyword": "机场使用教程",
+      "secondaryKeywords": [
+        "新手入门代理配置路径",
+        "机场与客户端搭配教程索引"
+      ],
+      "excludedKeywords": [
+        "订阅链接导入教程",
+        "代理故障排查"
+      ],
+      "pillar": "tutorials",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/tutorials/subscription/",
+      "primaryKeyword": "订阅链接导入教程",
+      "secondaryKeywords": [
+        "机场订阅链接怎么转换成 Clash 配置",
+        "一键导入与专属客户端说明"
+      ],
+      "excludedKeywords": [
+        "订阅更新失败",
+        "Clash 使用教程"
+      ],
+      "pillar": "tutorials",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/tutorials/clash/",
+      "primaryKeyword": "Clash 使用教程",
+      "secondaryKeywords": [
+        "Clash 策略组与自动测速设置",
+        "Mihomo YAML 配置入门"
+      ],
+      "excludedKeywords": [
+        "Clash Verge Rev",
+        "代理分流规则教程"
+      ],
+      "pillar": "tutorials",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/tutorials/routing/",
+      "primaryKeyword": "代理分流规则教程",
+      "secondaryKeywords": [
+        "国内外流量规则分流",
+        "AI 服务指定节点分流设置"
+      ],
+      "excludedKeywords": [
+        "Clash 使用教程",
+        "代理 DNS 设置教程"
+      ],
+      "pillar": "tutorials",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/tutorials/tun/",
+      "primaryKeyword": "TUN 模式开启教程",
+      "secondaryKeywords": [
+        "Clash TUN 虚拟网卡模式怎么开",
+        "终端和桌面应用接管代理"
+      ],
+      "excludedKeywords": [
+        "TUN 模式断网排查",
+        "代理 DNS 设置教程"
+      ],
+      "pillar": "tutorials",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/tutorials/dns/",
+      "primaryKeyword": "代理 DNS 设置教程",
+      "secondaryKeywords": [
+        "Fake-IP 与 Redir-Host 区别",
+        "代理防 DNS 泄漏配置"
+      ],
+      "excludedKeywords": [
+        "代理 DNS 泄漏与解析失败",
+        "TUN 模式开启教程"
+      ],
+      "pillar": "tutorials",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/tutorials/windows/",
+      "primaryKeyword": "Windows 科学上网设置",
+      "secondaryKeywords": [
+        "Windows 电脑导入机场订阅步骤",
+        "PC 端系统代理配置"
+      ],
+      "excludedKeywords": [
+        "Windows 机场客户端",
+        "Clash Verge Rev"
+      ],
+      "pillar": "tutorials",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/tutorials/android/",
+      "primaryKeyword": "Android 机场配置教程",
+      "secondaryKeywords": [
+        "安卓手机分应用代理与订阅更新",
+        "Android 新手配置步骤"
+      ],
+      "excludedKeywords": [
+        "Android 安卓代理客户端",
+        "v2rayNG"
+      ],
+      "pillar": "tutorials",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/tutorials/ios/",
+      "primaryKeyword": "iOS 机场配置教程",
+      "secondaryKeywords": [
+        "iPhone 小火箭扫码导入教程",
+        "iOS 代理模式切换步骤"
+      ],
+      "excludedKeywords": [
+        "iOS 苹果代理客户端",
+        "Shadowrocket 小火箭"
+      ],
+      "pillar": "tutorials",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/tutorials/guangsu/",
+      "primaryKeyword": "光速云使用教程",
+      "secondaryKeywords": [
+        "光速云在电脑和手机上怎么安装使用",
+        "光速云自研客户端与 Clash 订阅导入"
+      ],
+      "excludedKeywords": [
+        "光速云",
+        "光速云评测"
+      ],
+      "pillar": "tutorials",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/troubleshooting/",
+      "primaryKeyword": "代理故障排查",
+      "secondaryKeywords": [
+        "机场连不上排错总表",
+        "常见代理报错快速诊断"
+      ],
+      "excludedKeywords": [
+        "机场使用教程",
+        "机场节点超时 timeout"
+      ],
+      "pillar": "troubleshooting",
+      "intent": "troubleshooting",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/troubleshooting/timeout/",
+      "primaryKeyword": "机场节点超时 timeout",
+      "secondaryKeywords": [
+        "节点全超时排查方法",
+        "系统时间偏差与端口拦截"
+      ],
+      "excludedKeywords": [
+        "连上代理无法上网",
+        "订阅更新失败"
+      ],
+      "pillar": "troubleshooting",
+      "intent": "troubleshooting",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/troubleshooting/subscription/",
+      "primaryKeyword": "订阅更新失败",
+      "secondaryKeywords": [
+        "Clash 订阅更新失败 timeout 或 403 怎么办",
+        "机场订阅拉取报错修复"
+      ],
+      "excludedKeywords": [
+        "订阅链接导入教程",
+        "机场节点超时 timeout"
+      ],
+      "pillar": "troubleshooting",
+      "intent": "troubleshooting",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/troubleshooting/connection/",
+      "primaryKeyword": "连上代理无法上网",
+      "secondaryKeywords": [
+        "代理显示已连接但打不开网页",
+        "浏览器扩展与系统代理冲突"
+      ],
+      "excludedKeywords": [
+        "TUN 模式断网排查",
+        "机场节点超时 timeout"
+      ],
+      "pillar": "troubleshooting",
+      "intent": "troubleshooting",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/troubleshooting/dns/",
+      "primaryKeyword": "代理 DNS 泄漏与解析失败",
+      "secondaryKeywords": [
+        "开启代理后国内网站变慢或打不开",
+        "Fake-IP 缓存异常清理"
+      ],
+      "excludedKeywords": [
+        "代理 DNS 设置教程",
+        "连上代理无法上网"
+      ],
+      "pillar": "troubleshooting",
+      "intent": "troubleshooting",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/troubleshooting/startup/",
+      "primaryKeyword": "代理客户端无法启动",
+      "secondaryKeywords": [
+        "Clash 服务模式安装失败",
+        "端口占用与内核缺失修复"
+      ],
+      "excludedKeywords": [
+        "TUN 模式断网排查",
+        "代理客户端下载安全"
+      ],
+      "pillar": "troubleshooting",
+      "intent": "troubleshooting",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/troubleshooting/tun/",
+      "primaryKeyword": "TUN 模式断网排查",
+      "secondaryKeywords": [
+        "开启 TUN 模式后整个电脑断网",
+        "Docker WSL 虚拟网卡冲突"
+      ],
+      "excludedKeywords": [
+        "TUN 模式开启教程",
+        "连上代理无法上网"
+      ],
+      "pillar": "troubleshooting",
+      "intent": "troubleshooting",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/troubleshooting/ai-access/",
+      "primaryKeyword": "ChatGPT 无法访问报错排查",
+      "secondaryKeywords": [
+        "ChatGPT 提示 1020 或 Access Denied 怎么解决",
+        "Claude 地区封禁报错排查"
+      ],
+      "excludedKeywords": [
+        "ChatGPT 机场节点解锁",
+        "Claude 解锁与节点选择"
+      ],
+      "pillar": "troubleshooting",
+      "intent": "troubleshooting",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/risk/",
+      "primaryKeyword": "机场风险与合规",
+      "secondaryKeywords": [
+        "跨境代理使用边界",
+        "信息披露与数据状态说明"
+      ],
+      "excludedKeywords": [
+        "机场跑路风险",
+        "机场购买避坑指南"
+      ],
+      "pillar": "risk",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/risk/shutdown/",
+      "primaryKeyword": "机场跑路风险",
+      "secondaryKeywords": [
+        "买年付机场怕跑路怎么降低损失",
+        "机场失联征兆识别"
+      ],
+      "excludedKeywords": [
+        "靠谱机场",
+        "机场退款政策说明"
+      ],
+      "pillar": "risk",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/risk/buying-guide/",
+      "primaryKeyword": "机场购买避坑指南",
+      "secondaryKeywords": [
+        "首次买机场注意事项",
+        "先月付测试原则"
+      ],
+      "excludedKeywords": [
+        "机场推荐",
+        "机场跑路风险"
+      ],
+      "pillar": "risk",
+      "intent": "commercial",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/risk/alternatives/",
+      "primaryKeyword": "Clash 停更替代方案",
+      "secondaryKeywords": [
+        "Clash for Windows 停更删库迁徙方案",
+        "机场停服后备用切换策略"
+      ],
+      "excludedKeywords": [
+        "Windows 机场客户端",
+        "代理客户端下载安全"
+      ],
+      "pillar": "risk",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/risk/refunds/",
+      "primaryKeyword": "机场退款政策说明",
+      "secondaryKeywords": [
+        "机场特殊商品不支持退款合理吗",
+        "虚拟流量包消费争议边界"
+      ],
+      "excludedKeywords": [
+        "机场购买避坑指南",
+        "机场跑路风险"
+      ],
+      "pillar": "risk",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/risk/privacy/",
+      "primaryKeyword": "代理隐私与日志风险",
+      "secondaryKeywords": [
+        "机场能看到我浏览什么内容吗",
+        "HTTPS 加密与本地分流安全"
+      ],
+      "excludedKeywords": [
+        "代理客户端下载安全",
+        "免费 VPN"
+      ],
+      "pillar": "risk",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/risk/security/",
+      "primaryKeyword": "代理客户端下载安全",
+      "secondaryKeywords": [
+        "防范假冒代理客户端与钓鱼官网",
+        "GitHub 官方发布页校验"
+      ],
+      "excludedKeywords": [
+        "NekoBox",
+        "代理隐私与日志风险"
+      ],
+      "pillar": "risk",
+      "intent": "informational",
+      "pageType": "static-pillar"
+    },
+    {
+      "url": "/brands/muguang/",
+      "primaryKeyword": "暮光加速",
+      "secondaryKeywords": [
+        "暮光加速套餐价格与优惠码",
+        "暮光加速 BGP 专线档案"
+      ],
+      "excludedKeywords": [
+        "暮光加速评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/muguang/",
+      "primaryKeyword": "暮光加速评测",
+      "secondaryKeywords": [
+        "暮光加速实测速度与多设备体验"
+      ],
+      "excludedKeywords": [
+        "暮光加速"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/feimao/",
+      "primaryKeyword": "飞猫云",
+      "secondaryKeywords": [
+        "飞猫云专属客户端与学生版套餐"
+      ],
+      "excludedKeywords": [
+        "飞猫云评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/feimao/",
+      "primaryKeyword": "飞猫云评测",
+      "secondaryKeywords": [
+        "飞猫云 2026-08-11 实测测速与新手上手体验"
+      ],
+      "excludedKeywords": [
+        "飞猫云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/weifeng/",
+      "primaryKeyword": "微风网络",
+      "secondaryKeywords": [
+        "微风网络 IEPL 套餐与优惠码 flat888"
+      ],
+      "excludedKeywords": [
+        "微风网络评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/weifeng/",
+      "primaryKeyword": "微风网络评测",
+      "secondaryKeywords": [
+        "微风网络测速与入门性价比评估"
+      ],
+      "excludedKeywords": [
+        "微风网络"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/dalaoyun/",
+      "primaryKeyword": "大佬云",
+      "secondaryKeywords": [
+        "大佬云 5.6元年付套餐与优惠码 dly888"
+      ],
+      "excludedKeywords": [
+        "大佬云评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/dalaoyun/",
+      "primaryKeyword": "大佬云评测",
+      "secondaryKeywords": [
+        "大佬云和闪电鼠同档对比评估"
+      ],
+      "excludedKeywords": [
+        "大佬云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/xingdaomeng/",
+      "primaryKeyword": "星岛梦",
+      "secondaryKeywords": [
+        "星岛梦 IEPL 不限设备套餐档案"
+      ],
+      "excludedKeywords": [
+        "星岛梦评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/xingdaomeng/",
+      "primaryKeyword": "星岛梦评测",
+      "secondaryKeywords": [
+        "星岛梦 2026-08-11 测速与流媒体解锁表现"
+      ],
+      "excludedKeywords": [
+        "星岛梦"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/ermao/",
+      "primaryKeyword": "二猫云",
+      "secondaryKeywords": [
+        "二猫云定制客户端与白猫黑猫套餐"
+      ],
+      "excludedKeywords": [
+        "二猫云评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/ermao/",
+      "primaryKeyword": "二猫云评测",
+      "secondaryKeywords": [
+        "二猫云 2026-08-11 实测速度与节点争议核查"
+      ],
+      "excludedKeywords": [
+        "二猫云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/wuyou/",
+      "primaryKeyword": "无忧链接",
+      "secondaryKeywords": [
+        "无忧链接 MINI 套餐与 TikTok 直连档案"
+      ],
+      "excludedKeywords": [
+        "无忧链接评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/wuyou/",
+      "primaryKeyword": "无忧链接评测",
+      "secondaryKeywords": [
+        "无忧链接轻度使用与跨境电商适配评估"
+      ],
+      "excludedKeywords": [
+        "无忧链接"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/weitu/",
+      "primaryKeyword": "唯兔云",
+      "secondaryKeywords": [
+        "唯兔云 IPLC 套餐与优惠码 weitu666"
+      ],
+      "excludedKeywords": [
+        "唯兔云评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/weitu/",
+      "primaryKeyword": "唯兔云评测",
+      "secondaryKeywords": [
+        "唯兔云 2026-08-11 实测与 AI 解锁分析"
+      ],
+      "excludedKeywords": [
+        "唯兔云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/firefly/",
+      "primaryKeyword": "Firefly 萤火虫机场",
+      "secondaryKeywords": [
+        "Firefly 萤火虫 IPLC 套餐与资料版本核对"
+      ],
+      "excludedKeywords": [
+        "Firefly 萤火虫评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/firefly/",
+      "primaryKeyword": "Firefly 萤火虫评测",
+      "secondaryKeywords": [
+        "Firefly 原生 IP 与晚高峰表现核查"
+      ],
+      "excludedKeywords": [
+        "Firefly 萤火虫机场"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/yuzhou/",
+      "primaryKeyword": "宇宙云",
+      "secondaryKeywords": [
+        "宇宙云 VLESS 历史资料与待核实字段"
+      ],
+      "excludedKeywords": [
+        "宇宙云评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/yuzhou/",
+      "primaryKeyword": "宇宙云评测",
+      "secondaryKeywords": [
+        "宇宙云 2026-08-11 VLESS 测速图与缺口说明"
+      ],
+      "excludedKeywords": [
+        "宇宙云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/u1s1/",
+      "primaryKeyword": "U1S1 机场",
+      "secondaryKeywords": [
+        "U1S1 IPLC 套餐表与优惠码 akaka"
+      ],
+      "excludedKeywords": [
+        "U1S1 机场评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/u1s1/",
+      "primaryKeyword": "U1S1 机场评测",
+      "secondaryKeywords": [
+        "U1S1 2026-08-11 实测与新机场观察期风险"
+      ],
+      "excludedKeywords": [
+        "U1S1 机场"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/lingmao/",
+      "primaryKeyword": "灵猫网络",
+      "secondaryKeywords": [
+        "灵猫网络不限设备套餐与优惠码冲突核实"
+      ],
+      "excludedKeywords": [
+        "灵猫网络评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/lingmao/",
+      "primaryKeyword": "灵猫网络评测",
+      "secondaryKeywords": [
+        "灵猫网络 2026-08-11 测速与专属客户端体验"
+      ],
+      "excludedKeywords": [
+        "灵猫网络"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/jilian/",
+      "primaryKeyword": "极连云",
+      "secondaryKeywords": [
+        "极连云 18元 100GB IEPL 档案"
+      ],
+      "excludedKeywords": [
+        "极连云评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/jilian/",
+      "primaryKeyword": "极连云评测",
+      "secondaryKeywords": [
+        "极连云 2026-08-11 测速与 AI 场景评估"
+      ],
+      "excludedKeywords": [
+        "极连云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/guangnian/",
+      "primaryKeyword": "光年梯",
+      "secondaryKeywords": [
+        "光年梯 18元 110GB VLESS 档案"
+      ],
+      "excludedKeywords": [
+        "光年梯评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/guangnian/",
+      "primaryKeyword": "光年梯评测",
+      "secondaryKeywords": [
+        "光年梯 2026-08-11 测速与极连云对比"
+      ],
+      "excludedKeywords": [
+        "光年梯"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/yifan/",
+      "primaryKeyword": "一翻云",
+      "secondaryKeywords": [
+        "一翻云 Hysteria2 Reality 三协议套餐档案"
+      ],
+      "excludedKeywords": [
+        "一翻云评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/yifan/",
+      "primaryKeyword": "一翻云评测",
+      "secondaryKeywords": [
+        "一翻云 2026-08-11 测速与优惠码口径核实"
+      ],
+      "excludedKeywords": [
+        "一翻云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/sogo/",
+      "primaryKeyword": "SOGO 云",
+      "secondaryKeywords": [
+        "SOGO 云 15国节点与专属客户端档案"
+      ],
+      "excludedKeywords": [
+        "SOGO 云评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/sogo/",
+      "primaryKeyword": "SOGO 云评测",
+      "secondaryKeywords": [
+        "SOGO 云 2026-08-11 测速与无第三方订阅限制"
+      ],
+      "excludedKeywords": [
+        "SOGO 云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/kexin/",
+      "primaryKeyword": "可信云",
+      "secondaryKeywords": [
+        "可信云 25元档 IEPL VLESS 套餐档案"
+      ],
+      "excludedKeywords": [
+        "可信云评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/kexin/",
+      "primaryKeyword": "可信云评测",
+      "secondaryKeywords": [
+        "可信云 2026-08-11 测速与透明数据披露"
+      ],
+      "excludedKeywords": [
+        "可信云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/sujie/",
+      "primaryKeyword": "速界机场",
+      "secondaryKeywords": [
+        "速界 AI 生产力定位与 150GB 套餐档案"
+      ],
+      "excludedKeywords": [
+        "速界机场评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/sujie/",
+      "primaryKeyword": "速界机场评测",
+      "secondaryKeywords": [
+        "速界 2026-08-11 测速与 AI 访问边界评估"
+      ],
+      "excludedKeywords": [
+        "速界机场"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/shanyue/",
+      "primaryKeyword": "闪跃机场",
+      "secondaryKeywords": [
+        "闪跃 IPLC 专线套餐与优惠码 shanyue"
+      ],
+      "excludedKeywords": [
+        "闪跃机场评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/shanyue/",
+      "primaryKeyword": "闪跃机场评测",
+      "secondaryKeywords": [
+        "闪跃专属客户端体验与中高端定位评估"
+      ],
+      "excludedKeywords": [
+        "闪跃机场"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/quanqiu/",
+      "primaryKeyword": "全球云",
+      "secondaryKeywords": [
+        "全球云 60+ 节点 Trojan SS 套餐档案"
+      ],
+      "excludedKeywords": [
+        "全球云评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/quanqiu/",
+      "primaryKeyword": "全球云评测",
+      "secondaryKeywords": [
+        "全球云 2026-08-11 测速与节点规模评估"
+      ],
+      "excludedKeywords": [
+        "全球云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/shandianshu/",
+      "primaryKeyword": "闪电鼠机场",
+      "secondaryKeywords": [
+        "闪电鼠 5.6元年付套餐与优惠码 sd88"
+      ],
+      "excludedKeywords": [
+        "闪电鼠机场评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/shandianshu/",
+      "primaryKeyword": "闪电鼠机场评测",
+      "secondaryKeywords": [
+        "闪电鼠极限平价档差异与待测说明"
+      ],
+      "excludedKeywords": [
+        "闪电鼠机场"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/yunjiexian/",
+      "primaryKeyword": "云界线",
+      "secondaryKeywords": [
+        "云界线和环球梯注册链接打不开怎么回事",
+        "云界线 5.6元档套餐档案"
+      ],
+      "excludedKeywords": [
+        "云界线评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/yunjiexian/",
+      "primaryKeyword": "云界线评测",
+      "secondaryKeywords": [
+        "云界线同档对比与推广链接格式核查"
+      ],
+      "excludedKeywords": [
+        "云界线"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/liulianyun/",
+      "primaryKeyword": "榴莲云",
+      "secondaryKeywords": [
+        "榴莲云 5.6元档协议未明档案"
+      ],
+      "excludedKeywords": [
+        "榴莲云评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/liulianyun/",
+      "primaryKeyword": "榴莲云评测",
+      "secondaryKeywords": [
+        "榴莲云缺失字段与低价风险评估"
+      ],
+      "excludedKeywords": [
+        "榴莲云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/shenxing/",
+      "primaryKeyword": "神行加速",
+      "secondaryKeywords": [
+        "神行加速 14元 120GB 年付档案"
+      ],
+      "excludedKeywords": [
+        "神行加速评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/shenxing/",
+      "primaryKeyword": "神行加速评测",
+      "secondaryKeywords": [
+        "神行加速中档性价比与待实测说明"
+      ],
+      "excludedKeywords": [
+        "神行加速"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/huanqiuti/",
+      "primaryKeyword": "环球梯",
+      "secondaryKeywords": [
+        "环球梯 5.6元档与链接格式差异说明"
+      ],
+      "excludedKeywords": [
+        "环球梯评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/huanqiuti/",
+      "primaryKeyword": "环球梯评测",
+      "secondaryKeywords": [
+        "环球梯同档对比与待核实字段"
+      ],
+      "excludedKeywords": [
+        "环球梯"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/yinxingren/",
+      "primaryKeyword": "隐形人机场",
+      "secondaryKeywords": [
+        "隐形人机场为什么不能用 Clash 订阅",
+        "隐形人 IPLC 专属客户端档案"
+      ],
+      "excludedKeywords": [
+        "隐形人机场评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/yinxingren/",
+      "primaryKeyword": "隐形人机场评测",
+      "secondaryKeywords": [
+        "隐形人测速缺失与厂商声明核实边界"
+      ],
+      "excludedKeywords": [
+        "隐形人机场"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/tiziyun/",
+      "primaryKeyword": "梯子云",
+      "secondaryKeywords": [
+        "梯子云自研客户端与通用订阅双支持档案"
+      ],
+      "excludedKeywords": [
+        "梯子云评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/tiziyun/",
+      "primaryKeyword": "梯子云评测",
+      "secondaryKeywords": [
+        "梯子云新手零门槛与带宽参数核查"
+      ],
+      "excludedKeywords": [
+        "梯子云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/lingdong/",
+      "primaryKeyword": "灵动云",
+      "secondaryKeywords": [
+        "灵动云 VLESS 多周期套餐档案"
+      ],
+      "excludedKeywords": [
+        "灵动云评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/lingdong/",
+      "primaryKeyword": "灵动云评测",
+      "secondaryKeywords": [
+        "灵动云 2026-07 珠海联通实测与 OpenAI 解锁表现"
+      ],
+      "excludedKeywords": [
+        "灵动云"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/langwang/",
+      "primaryKeyword": "浪网机场",
+      "secondaryKeywords": [
+        "浪网 IEPL 历史套餐记录与待核实档案"
+      ],
+      "excludedKeywords": [
+        "浪网机场评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/langwang/",
+      "primaryKeyword": "浪网机场评测",
+      "secondaryKeywords": [
+        "浪网资料缺口与未实测状态说明"
+      ],
+      "excludedKeywords": [
+        "浪网机场"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/edgenova/",
+      "primaryKeyword": "边缘节点 EdgeNova",
+      "secondaryKeywords": [
+        "EdgeNova 多线路套餐与优惠码 TH888"
+      ],
+      "excludedKeywords": [
+        "边缘节点 EdgeNova 评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/edgenova/",
+      "primaryKeyword": "边缘节点 EdgeNova 评测",
+      "secondaryKeywords": [
+        "EdgeNova 测速与解锁待核实报告"
+      ],
+      "excludedKeywords": [
+        "边缘节点 EdgeNova"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/brands/kuaili/",
+      "primaryKeyword": "快狸机场",
+      "secondaryKeywords": [
+        "快狸机场档案与待补充套餐信息"
+      ],
+      "excludedKeywords": [
+        "快狸机场评测"
+      ],
+      "pillar": "brands",
+      "intent": "navigational",
+      "pageType": "brand-profile"
+    },
+    {
+      "url": "/reviews/kuaili/",
+      "primaryKeyword": "快狸机场评测",
+      "secondaryKeywords": [
+        "快狸 2026-08-11 VLESS 节点测速实测记录"
+      ],
+      "excludedKeywords": [
+        "快狸机场"
+      ],
+      "pillar": "brands",
+      "intent": "commercial",
+      "pageType": "brand-review"
+    },
+    {
+      "url": "/about/",
+      "primaryKeyword": "关于AI解锁",
+      "secondaryKeywords": [
+        "AI解锁评测方法论与打分标准",
+        "机场测速实验室标准与免责声明"
+      ],
+      "excludedKeywords": [
+        "机场风险与合规",
+        "机场排行榜"
+      ],
+      "pillar": "risk",
+      "intent": "informational",
+      "pageType": "trust-about"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-11-23",
+  "description": "aijiesuo.biz 搜索意图映射与内容合规约束规则，明确不同意图页面的信息增量、证据标注和 CTA 边界。",
+  "intents": [
+    {
+      "intent": "commercial",
+      "label": "商业对比与选型意图",
+      "decisionStages": ["consideration", "evaluation"],
+      "geoStyle": "先给出按预算/场景区分的条件化结论，再呈现分离后的 commercialRank 与 researchScore 维度对比。",
+      "requiredDisclosures": [
+        "区分实测数据（measured）与厂商自述（vendor）",
+        "存在推广链接时必须从 data/links.ts 读取并标注 rel=\"nofollow sponsored noopener\"",
+        "注明测速日期、非晚高峰限制或缺失字段（待核实）"
+      ],
+      "forbiddenClaims": [
+        "不得承诺 100% 在线率或绝对不跑路",
+        "不得编造套餐价格、优惠折扣或测试日期",
+        "不得将厂商宣传词当作第三方客观结论"
+      ],
+      "ctaPolicy": "提供“查看品牌实测档案”与“对比同价位替代方案”双路径，避免单一硬广导流。",
+      "exampleUrls": [
+        "/airport/recommend/",
+        "/airport/ranking/",
+        "/pricing/cheap/",
+        "/pricing/non-expiring/",
+        "/compare/",
+        "/reviews/guangsu/",
+        "/ai/netflix/"
+      ]
+    },
+    {
+      "intent": "transactional",
+      "label": "购买优惠与注册落地意图",
+      "decisionStages": ["decision", "purchase-signup"],
+      "geoStyle": "清晰列明当前核实到的套餐表、计费周期、优惠码适用限制与退款边界。",
+      "requiredDisclosures": [
+        "推广链接附近明确标注：含推广链接，通过链接注册可能为本站带来佣金，不影响用户支付价格",
+        "标明优惠码来源日期及历史资料冲突（如适用）",
+        "提醒先选月付或小额档位验证本地网络后再考虑年付"
+      ],
+      "forbiddenClaims": [
+        "不得虚构限时倒计时或虚假原价折扣",
+        "不得隐瞒“特殊商品不支持退款”或“专属客户端不支持第三方订阅”限制"
+      ],
+      "ctaPolicy": "通过 data/links.ts 统一渲染带合规属性的官网注册按钮，并附“查看配置教程”入口。",
+      "exampleUrls": [
+        "/pricing/guangsu/"
+      ]
+    },
+    {
+      "intent": "navigational",
+      "label": "品牌档案与软件官方入口意图",
+      "decisionStages": ["discovery", "evaluation", "setup"],
+      "geoStyle": "首段明确定义实体属性（运营年份、线路定位、协议、客户端兼容性），直达可靠入口与核心参数卡。",
+      "requiredDisclosures": [
+        "机场品牌页注明资料来源日期与待核实字段（如宇宙云、浪网、快狸、云界线链接格式差异）",
+        "客户端软件页注明开源仓库 / 官方 App Store 地区差异 / 假冒包风险（如 NekoBox Google Play 警告）"
+      ],
+      "forbiddenClaims": [
+        "不得用未经核实的历史入口冒充当前有效官网",
+        "不得将停更或维护受限项目（如 Mihomo Party、NekoBox）标为无条件首选"
+      ],
+      "ctaPolicy": "机场品牌页引导至独立评测与接入教程；客户端页引导至对应操作系统配置指南与安全校验页。",
+      "exampleUrls": [
+        "/",
+        "/brands/",
+        "/brands/guangsu/",
+        "/clients/",
+        "/clients/clash-verge-rev/",
+        "/clients/shadowrocket/"
+      ]
+    },
+    {
+      "intent": "informational",
+      "label": "技术原理、教程与风控科普意图",
+      "decisionStages": ["awareness", "setup", "risk-mitigation"],
+      "geoStyle": "开门见山回答问题，采用分步骤操作、架构/版本前置条件表与常见误区对比。",
+      "requiredDisclosures": [
+        "系统软件教程必须区分处理器架构（macOS Apple Silicon vs Intel、Linux DEB/RPM/AppImage）及系统版本门槛（Nikki 需 OpenWrt 24.10+）",
+        "AI 与流媒体科普区分原生 IP 需求与地区白名单限制"
+      ],
+      "forbiddenClaims": [
+        "不得将未实测的专线宣传（如“零丢包”“2000Mbps”）写成确定事实",
+        "不得为了塞入 FAQ Schema 而堆砌与正文无关的问答"
+      ],
+      "ctaPolicy": "自然衔接下一步操作页面（如从教程指向排错手册，从风险指南指向月付筛选或可靠客户端替代）。",
+      "exampleUrls": [
+        "/airport/reliable/",
+        "/pricing/one-yuan/",
+        "/ai/chatgpt/",
+        "/network/iepl/",
+        "/tutorials/subscription/",
+        "/risk/shutdown/",
+        "/risk/alternatives/"
+      ]
+    },
+    {
+      "intent": "troubleshooting",
+      "label": "报错诊断与故障恢复意图",
+      "decisionStages": ["retention-troubleshooting"],
+      "geoStyle": "先给出最常见 3 个原因与快速自检表，再按网络层 → DNS 层 → 客户端权限层 → 节点 IP 风控层逐步排查。",
+      "requiredDisclosures": [
+        "明确标注每项排查步骤适用的系统与客户端范围",
+        "涉及 AI 403/1020 或送中报错时，客观说明是出口 IP 地区/信誉问题而非软件损坏"
+      ],
+      "forbiddenClaims": [
+        "不得宣称单一设置可永久绕过平台风控",
+        "不得指导用户关闭系统全部安全防护或安装来历不明的修改版客户端"
+      ],
+      "ctaPolicy": "指向相关教程（DNS / TUN / 规则分流）或安全替代客户端列表。",
+      "exampleUrls": [
+        "/troubleshooting/",
+        "/troubleshooting/timeout/",
+        "/troubleshooting/subscription/",
+        "/troubleshooting/connection/",
+        "/troubleshooting/dns/",
+        "/troubleshooting/startup/",
+        "/troubleshooting/tun/",
+        "/troubleshooting/ai-access/"
+      ]
+    }
+  ]
+}

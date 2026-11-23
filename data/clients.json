@@ -1,0 +1,589 @@
+{
+  "schemaVersion": "1.0",
+  "sourceFile": "raw-data/第三方代理客户端.txt",
+  "generatedAt": "2026-11-23",
+  "clientCategoriesNote": "机场代理客户端主要分为两类：第三方通用客户端（如 Clash Verge Rev、v2rayN、Shadowrocket、FlClash、Hiddify，可导入兼容订阅）与机场专属客户端（由服务商提供，部分仅支持账号登录，不提供第三方订阅链接）。",
+  "platformNotes": {
+    "windows": "Clash Verge Rev、v2rayN、FlClash、Hiddify、Karing 和 Clash Mi 均有可核实的跨平台项目资料。Mihomo Party 应单独关注项目维护状态，不宜未经核实就标为持续更新的首选客户端。",
+    "android": "v2rayNG、FlClash、Hiddify 和 Karing 适合作为安卓栏目主要介绍对象。NekoBox 官方项目已提示维护资源有限，且特别警告不要使用其名称下已被第三方控制的 Google Play 版本。",
+    "ios": "并非所有 iOS 客户端都免费。Shadowrocket、Stash 和 Quantumult X 在美国 App Store 显示为付费应用，Surge 则包含应用内购买。实际售价和上架情况以用户所属 App Store 地区为准。",
+    "macos": "macOS 下载引导应单独说明 Intel 与 Apple Silicon 芯片安装包区别，避免下载不适用版本；Clash Verge Rev 与 FlClash 均提供对应架构安装方式。",
+    "linux": "Linux 下载页应分别说明 DEB、RPM、AppImage 等安装格式并标注支持架构；v2rayA 亦可用于无传统桌面的 Linux 主机或服务器。",
+    "openwrt": "路由器环境安装前需确认 OpenWrt 版本、CPU 架构、包管理器、内核和防火墙依赖。例如 Nikki 项目明确要求 OpenWrt 24.10 及以上版本。"
+  },
+  "platforms": {
+    "windows": [
+      {
+        "slug": "clash-verge-rev",
+        "name": "Clash Verge Rev",
+        "displayName": "Clash Verge Rev",
+        "platform": "windows",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo 内核", "订阅管理", "规则分流", "TUN 模式", "新手及进阶用户"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "v2rayn",
+        "name": "v2rayN",
+        "displayName": "v2rayN",
+        "platform": "windows",
+        "kernels": ["Xray", "sing-box"],
+        "features": ["Xray/sing-box 等多核心", "适合多协议和节点管理"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "flclash",
+        "name": "FlClash",
+        "displayName": "FlClash",
+        "platform": "windows",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo 内核", "规则分流", "简洁界面"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "clash-nyanpasu",
+        "name": "Clash Nyanpasu",
+        "displayName": "Clash Nyanpasu",
+        "platform": "windows",
+        "kernels": ["Mihomo", "Clash"],
+        "features": ["Clash 图形界面", "配置增强", "多内核"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "hiddify",
+        "name": "Hiddify",
+        "displayName": "Hiddify",
+        "platform": "windows",
+        "kernels": ["sing-box"],
+        "features": ["多协议", "自动节点选择", "远程配置"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "karing",
+        "name": "Karing",
+        "displayName": "Karing",
+        "platform": "windows",
+        "kernels": ["sing-box"],
+        "features": ["sing-box 系客户端", "跨平台", "面向新手的配置方式"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "clash-mi",
+        "name": "Clash Mi",
+        "displayName": "Clash Mi",
+        "platform": "windows",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo 内核", "多平台", "Clash YAML 配置"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "mihomo-party",
+        "name": "Mihomo Party",
+        "displayName": "Mihomo Party",
+        "platform": "windows",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo 内核", "配置与分流管理", "适合历史教程和迁移场景"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "maintenanceWarning": "应单独关注项目维护状态，不宜未经核实就标为持续更新的首选客户端。",
+        "dataStatus": "editorial"
+      }
+    ],
+    "android": [
+      {
+        "slug": "v2rayng",
+        "name": "v2rayNG",
+        "displayName": "v2rayNG",
+        "platform": "android",
+        "kernels": ["Xray"],
+        "features": ["Xray 系协议客户端", "支持节点链接和订阅导入"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "flclash",
+        "name": "FlClash",
+        "displayName": "FlClash",
+        "platform": "android",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo 内核", "规则分流", "支持订阅配置"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "clash-meta-for-android",
+        "name": "Clash Meta for Android",
+        "displayName": "Clash Meta for Android",
+        "platform": "android",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo 系规则代理", "支持 Clash 配置"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "nekobox-for-android",
+        "name": "NekoBox for Android",
+        "displayName": "NekoBox for Android",
+        "platform": "android",
+        "kernels": ["sing-box"],
+        "features": ["sing-box 系客户端", "适合有一定基础的用户"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "maintenanceWarning": "NekoBox 官方项目已提示维护资源有限，且特别警告不要使用其名称下已被第三方控制的 Google Play 版本。",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "sing-box-for-android",
+        "name": "sing-box for Android",
+        "displayName": "sing-box for Android（SFA）",
+        "platform": "android",
+        "kernels": ["sing-box"],
+        "features": ["官方 sing-box 客户端", "适合原生 sing-box 配置"],
+        "projectPlatform": "官方文档",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "hiddify",
+        "name": "Hiddify",
+        "displayName": "Hiddify",
+        "platform": "android",
+        "kernels": ["sing-box"],
+        "features": ["多协议", "多种订阅格式", "适合新手"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "karing",
+        "name": "Karing",
+        "displayName": "Karing",
+        "platform": "android",
+        "kernels": ["sing-box"],
+        "features": ["sing-box 系客户端", "支持多订阅与规则管理"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "clash-mi",
+        "name": "Clash Mi",
+        "displayName": "Clash Mi",
+        "platform": "android",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo 内核", "Clash YAML 配置", "跨平台"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      }
+    ],
+    "ios": [
+      {
+        "slug": "shadowrocket",
+        "name": "Shadowrocket",
+        "displayName": "Shadowrocket（小火箭）",
+        "platform": "ios",
+        "kernels": ["自研多协议内核"],
+        "features": ["规则代理", "订阅管理", "流量与请求查看"],
+        "projectPlatform": "App Store",
+        "pricingType": "paid_or_iap",
+        "platformNotes": "美国 App Store 显示为付费应用，实际售价与上架情况以所属地区为准。",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "stash",
+        "name": "Stash",
+        "displayName": "Stash",
+        "platform": "ios",
+        "kernels": ["Clash/Mihomo 兼容规则"],
+        "features": ["Clash 风格规则配置", "策略组", "覆写功能"],
+        "projectPlatform": "App Store",
+        "pricingType": "paid_or_iap",
+        "platformNotes": "美国 App Store 显示为付费应用，实际售价与上架情况以所属地区为准。",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "quantumult-x",
+        "name": "Quantumult X",
+        "displayName": "Quantumult X（圈 X）",
+        "platform": "ios",
+        "kernels": ["自研规则引擎"],
+        "features": ["规则分流", "请求重写", "脚本", "DNS 自定义"],
+        "projectPlatform": "App Store",
+        "pricingType": "paid_or_iap",
+        "platformNotes": "美国 App Store 显示为付费应用，实际售价与上架情况以所属地区为准。",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "surge-5",
+        "name": "Surge 5",
+        "displayName": "Surge 5",
+        "platform": "ios",
+        "kernels": ["Surge 自研内核"],
+        "features": ["高级网络代理", "流量分析与调试"],
+        "projectPlatform": "App Store",
+        "pricingType": "paid_or_iap",
+        "platformNotes": "包含应用内购买，具体价格以所属 App Store 地区为准。",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "sing-box-ios",
+        "name": "sing-box",
+        "displayName": "sing-box（SFI）",
+        "platform": "ios",
+        "kernels": ["sing-box"],
+        "features": ["官方 sing-box 客户端", "适合原生配置"],
+        "projectPlatform": "官方文档",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "hiddify",
+        "name": "Hiddify",
+        "displayName": "Hiddify",
+        "platform": "ios",
+        "kernels": ["sing-box"],
+        "features": ["多协议代理", "导入订阅", "新手友好"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "karing",
+        "name": "Karing",
+        "displayName": "Karing",
+        "platform": "ios",
+        "kernels": ["sing-box"],
+        "features": ["多种订阅格式", "规则分流", "跨设备使用"],
+        "projectPlatform": "App Store",
+        "pricingType": "unverified",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "clash-mi",
+        "name": "Clash Mi",
+        "displayName": "Clash Mi",
+        "platform": "ios",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo 内核", "支持 Clash 风格配置"],
+        "projectPlatform": "App Store",
+        "pricingType": "unverified",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "streisand",
+        "name": "Streisand",
+        "displayName": "Streisand",
+        "platform": "ios",
+        "kernels": ["Xray/sing-box 多协议"],
+        "features": ["VLESS", "VMess", "Trojan", "Hysteria 等协议"],
+        "projectPlatform": "App Store",
+        "pricingType": "unverified",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "potatso",
+        "name": "Potatso",
+        "displayName": "Potatso",
+        "platform": "ios",
+        "kernels": ["多协议"],
+        "features": ["Shadowsocks", "SSR", "SOCKS", "HTTP(S)"],
+        "projectPlatform": "App Store",
+        "pricingType": "unverified",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "oneclick",
+        "name": "OneClick",
+        "displayName": "OneClick",
+        "platform": "ios",
+        "kernels": ["多协议"],
+        "features": ["VMess", "Shadowsocks", "Trojan", "订阅链接"],
+        "projectPlatform": "App Store",
+        "pricingType": "unverified",
+        "dataStatus": "editorial"
+      }
+    ],
+    "macos": [
+      {
+        "slug": "clash-verge-rev",
+        "name": "Clash Verge Rev",
+        "displayName": "Clash Verge Rev",
+        "platform": "macos",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo", "规则分流", "TUN 模式"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "platformNotes": "提供 Intel 与 Apple Silicon 对应架构安装包。",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "clash-nyanpasu",
+        "name": "Clash Nyanpasu",
+        "displayName": "Clash Nyanpasu",
+        "platform": "macos",
+        "kernels": ["Mihomo", "Clash"],
+        "features": ["多内核", "订阅和配置管理"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "flclash",
+        "name": "FlClash",
+        "displayName": "FlClash",
+        "platform": "macos",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo", "订阅配置", "规则管理"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "platformNotes": "提供 Intel 与 Apple Silicon 对应架构安装包。",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "v2rayn",
+        "name": "v2rayN",
+        "displayName": "v2rayN",
+        "platform": "macos",
+        "kernels": ["Xray", "sing-box"],
+        "features": ["Xray/sing-box 等多核心"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "hiddify",
+        "name": "Hiddify",
+        "displayName": "Hiddify",
+        "platform": "macos",
+        "kernels": ["sing-box"],
+        "features": ["多协议", "自动选点", "订阅管理"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "karing",
+        "name": "Karing",
+        "displayName": "Karing",
+        "platform": "macos",
+        "kernels": ["sing-box"],
+        "features": ["跨平台订阅与路由管理"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "clash-mi",
+        "name": "Clash Mi",
+        "displayName": "Clash Mi",
+        "platform": "macos",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo 图形界面"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "surge-mac",
+        "name": "Surge Mac",
+        "displayName": "Surge Mac",
+        "platform": "macos",
+        "kernels": ["Surge 自研内核"],
+        "features": ["高级网络代理", "规则控制", "网络调试"],
+        "projectPlatform": "官网",
+        "pricingType": "paid_or_iap",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "sing-box-macos",
+        "name": "sing-box for macOS",
+        "displayName": "sing-box for macOS（SFM）",
+        "platform": "macos",
+        "kernels": ["sing-box"],
+        "features": ["官方 sing-box 客户端"],
+        "projectPlatform": "官方文档",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      }
+    ],
+    "linux": [
+      {
+        "slug": "clash-verge-rev",
+        "name": "Clash Verge Rev",
+        "displayName": "Clash Verge Rev",
+        "platform": "linux",
+        "kernels": ["Mihomo"],
+        "features": ["桌面图形界面", "Mihomo", "规则分流"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "platformNotes": "需区分 DEB、RPM、AppImage 及 CPU 架构。",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "v2rayn",
+        "name": "v2rayN",
+        "displayName": "v2rayN",
+        "platform": "linux",
+        "kernels": ["Xray", "sing-box"],
+        "features": ["Xray 等多核心桌面客户端"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "flclash",
+        "name": "FlClash",
+        "displayName": "FlClash",
+        "platform": "linux",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo", "规则代理", "多种 Linux 安装包"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "clash-nyanpasu",
+        "name": "Clash Nyanpasu",
+        "displayName": "Clash Nyanpasu",
+        "platform": "linux",
+        "kernels": ["Mihomo", "Clash"],
+        "features": ["多核心与配置管理"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "hiddify",
+        "name": "Hiddify",
+        "displayName": "Hiddify",
+        "platform": "linux",
+        "kernels": ["sing-box"],
+        "features": ["多协议订阅客户端"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "karing",
+        "name": "Karing",
+        "displayName": "Karing",
+        "platform": "linux",
+        "kernels": ["sing-box"],
+        "features": ["sing-box 系跨平台客户端"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "clash-mi",
+        "name": "Clash Mi",
+        "displayName": "Clash Mi",
+        "platform": "linux",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo 图形客户端"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "v2raya",
+        "name": "v2rayA",
+        "displayName": "v2rayA",
+        "platform": "linux",
+        "kernels": ["Xray", "V2Ray"],
+        "features": ["Web 控制界面", "透明代理", "适合 Linux 主机或服务器"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "platformNotes": "可用于没有传统桌面环境的 Linux 设备。",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "sing-box-desktop",
+        "name": "sing-box for Desktop",
+        "displayName": "sing-box for Desktop",
+        "platform": "linux",
+        "kernels": ["sing-box"],
+        "features": ["官方 sing-box 桌面客户端方向"],
+        "projectPlatform": "官方文档",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      }
+    ],
+    "openwrt": [
+      {
+        "slug": "openclash",
+        "name": "OpenClash",
+        "displayName": "OpenClash",
+        "platform": "openwrt",
+        "kernels": ["Mihomo", "Clash"],
+        "features": ["Mihomo/Clash 系规则代理", "订阅管理", "透明代理"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "passwall2",
+        "name": "PassWall2",
+        "displayName": "PassWall2",
+        "platform": "openwrt",
+        "kernels": ["Xray", "sing-box"],
+        "features": ["Xray/sing-box 等核心", "支持节点、透明代理和访问控制"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "nikki",
+        "name": "Nikki",
+        "displayName": "Nikki",
+        "platform": "openwrt",
+        "kernels": ["Mihomo"],
+        "features": ["Mihomo 透明代理与策略管理"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "maintenanceWarning": "Nikki 项目明确要求 OpenWrt 24.10 及以上版本，安装前须核对固件版本与防火墙依赖。",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "homeproxy",
+        "name": "HomeProxy",
+        "displayName": "HomeProxy",
+        "platform": "openwrt",
+        "kernels": ["sing-box"],
+        "features": ["基于 sing-box 的路由代理管理"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      },
+      {
+        "slug": "v2raya",
+        "name": "v2rayA",
+        "displayName": "v2rayA",
+        "platform": "openwrt",
+        "kernels": ["Xray", "V2Ray"],
+        "features": ["可用于部分 Linux 路由与网关环境"],
+        "projectPlatform": "GitHub",
+        "pricingType": "free_open_source",
+        "dataStatus": "editorial"
+      }
+    ]
+  }
+}
